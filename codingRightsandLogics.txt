@@ -1,0 +1,1 @@
+Followed tutorials and all logics implementation from udemy resources with James Quick as instructor on the subject (Build a quiz app with html, css and javascript)
