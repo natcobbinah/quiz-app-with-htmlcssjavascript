@@ -29,10 +29,10 @@ let questions = [
  },
  {
     question: "How do you write 'Hello World' in an alert box?",
-    choice1:"msgBox('Hello World');",
-    choice1:"alertBox('Hello World');",
-    choice1:"msg('Hello World');",
-    choice1:"alert('Hello World');",
+    choice1: "msgBox('Hello World');",
+    choice2: "alertBox('Hello World');",
+    choice3: "msg('Hello World');",
+    choice4: "alert('Hello World');",
     answer: 4
  }
 ];
