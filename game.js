@@ -3,6 +3,8 @@ const choices = Array.from(document.getElementsByClassName("choice-text"));
 const progressText = document.getElementById('progressText');
 const progressBarFull =document.getElementById('progressBarFull');
 const scoreText = document.getElementById('score');
+const loader = document.getElementById("loader");
+const game = document.getElementById("game");
 
 let currentQuestion = {};
 let acceptingAnswers= false;
@@ -46,6 +48,9 @@ startGame = () => {
     score = 0;
     availableQuestions = [...questions];
     getNewQuestion();    
+   
+    loader.classList.add("hidden");
+    game.classList.remove("hidden");
 };
 
 getNewQuestion = () =>{
